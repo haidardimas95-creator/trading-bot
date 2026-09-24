@@ -1,0 +1,14 @@
+{
+  "name": "onaldhi-trading-bot",
+  "version": "1.0.0",
+  "description": "OnAldhi_pf3_mean5 Trading Bot - Vercel Deployment",
+  "main": "api/index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "vercel start"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "axios": "^1.6.0"
+  }
+}

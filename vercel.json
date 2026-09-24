@@ -1,0 +1,23 @@
+{
+  "crons": [
+    {
+      "path": "/api/scan",
+      "schedule": "*/15 * * * *"
+    },
+    {
+      "path": "/api/check-exits",
+      "schedule": "*/5 * * * *"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
+      ]
+    }
+  ]
+}
